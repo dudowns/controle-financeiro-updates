@@ -1,0 +1,20 @@
+{
+  "appName": "Controle Financeiro",
+  "description": "App de controle financeiro pessoal",
+  "items": [
+    {
+      "version": "1.0.0",
+      "shortVersion": 1,
+      "changes": [
+        {
+          "type": "feat",
+          "message": "Versão inicial do app"
+        }
+      ],
+      "date": "2026-02-15",
+      "mandatory": false,
+      "url": "https://github.com/dudowns/controle-financeiro-updates/releases/download/v1.0.0/ControleFinanceiro-1.0.0-windows.zip",
+      "platform": "windows"
+    }
+  ]
+}
