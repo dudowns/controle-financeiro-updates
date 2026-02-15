@@ -1,0 +1,57 @@
+name: controle_Gastos_app
+description: App de controle financeiro pessoal
+publish_to: 'none'
+version: 1.0.0+4
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 🔥 Processos
+  process_run: ^1.0.0
+  
+  # 🔥 Localizações para o DatePicker!
+  flutter_localizations:
+    sdk: flutter
+
+  desktop_updater: ^1.2.0
+
+  # Banco de dados local
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  path: ^1.9.0
+  path_provider: ^2.1.0
+
+  # Gráficos
+  syncfusion_flutter_charts: ^32.2.5
+  fl_chart: ^0.66.2
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.6
+
+  # 🔥 NOTIFICAÇÕES
+  flutter_local_notifications: ^16.1.0
+  timezone: ^0.9.2
+
+  # 🔥 API HTTP
+  http: ^1.1.0
+
+  # 🔥 ATUALIZAÇÃO AUTOMÁTICA
+  flutter_desktop_updater:
+    git:
+      url: https://github.com/qasimovv/flutter_desktop_updater.git
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  inno_bundle: ^0.11.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
